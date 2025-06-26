@@ -115,5 +115,8 @@ Frontend runs at `http://localhost:3000`
 ### Use Your Own Data Source
 
 You can create your own script to insert data to the database. Postgres, Pinecone, etc. work as well, I just chose to use Supabase for simplicity.
-1. **Modify `chunking.py`**: Adjust chunk size for your content type
-2. **Update `chatbot.py`**: Change the prompt to match your domain
+**Modify `chunking.py`**: Adjust chunk size for your content type
+**Update `chatbot.py`**: Change the prompt to match your domain
+
+CREDIT to Paul Graham. You can read Paul Graham's full essays here: https://www.paulgraham.com/articles.html
+
