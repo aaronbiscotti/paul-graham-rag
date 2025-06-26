@@ -1,0 +1,43 @@
+{
+  "name": "virtual-paul-graham",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A 2008-styled chat interface for talking with Paul Graham's AI",
+  "keywords": [
+    "paul-graham",
+    "ai",
+    "chat",
+    "nextjs",
+    "2008-design"
+  ],
+  "author": "Aaron Tang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/virtual-paul-graham.git"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.1",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
